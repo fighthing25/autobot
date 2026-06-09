@@ -43,7 +43,7 @@ async def process_prompt(message: Message, state: FSMContext):
     # Langsung panggil fungsi generate sederhana
     headers = {"Authorization": f"Bearer {SONAUTO_API_KEY}", "Content-Type": "application/json"}
     async with aiohttp.ClientSession() as session:
-        async with session.post("[https://api.sonauto.ai/v1/generations/v3](https://api.sonauto.ai/v1/generations/v3)", json={"prompt": message.text}, headers=headers) as resp:
+        async with session.post("https://api.sonauto.ai/v1/generations/v3(https://api.sonauto.ai/v1/generations/v3)", json={"prompt": message.text}, headers=headers) as resp:
             data = await resp.json()
             task_id = data.get("task_id")
             await msg.edit_text(f"Task created: {task_id}")
