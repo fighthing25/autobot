@@ -1,0 +1,13 @@
+buatkan saya aplikasi notch untuk windows seperti aplikasi poni dan nusa notch. Berikut rangkumannya.
+
+**Notch dan mata:**
+- Notch akan menghilang setelah **1 detik** tanpa gerakan kursor. Ini terasa sangat cepat, jadi sebaiknya angkanya bisa diubah di pengaturan, supaya kamu bisa menyesuaikan nanti.
+- Mata bisa **berkedip** secara acak, dan berubah **ekspresi** sesuai kondisi, misalnya senang saat diklik, mengantuk saat notch hampir menghilang, atau kaget saat ada notifikasi.
+
+**Jadwal dan waktu shalat:**
+- Kamu bisa **memilih kota** sendiri dari daftar, jadi aplikasi tidak perlu mengakses lokasi.
+- Waktu shalat akan ditampilkan di notch, misalnya waktu shalat berikutnya beserta hitung mundurnya.
+- **Notifikasi** bisa diatur on atau off, dan bisa diberi jeda, misalnya 10 menit sebelum waktu shalat.
+- Data waktu shalat bisa diambil dari layanan publik yang gratis, seperti Aladhan API. Untuk Indonesia, sebaiknya dipastikan metode perhitungannya sesuai dengan Kemenag RI, supaya jadwalnya sama dengan yang biasa kamu lihat. Ini bisa kita cek saat pengembangan.
+
+Untuk notifikasi shalat, cukup notifikasi biasa dengan bunyi standar Windows
